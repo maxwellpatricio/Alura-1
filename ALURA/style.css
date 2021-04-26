@@ -1,0 +1,239 @@
+html{
+	font-family:'Roboto';
+	
+}
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #b15252;
+}
+
+.ulProdutos{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+	
+}
+
+.pDescricao{
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.pPreco{
+	font-size: 20px;
+	font-style:italic;
+	margin-top: 10px;
+}
+
+.ulProdutos h2{
+	font-family: 'Roboto';
+	font-size: 30px;
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+
+.ulProdutos li{
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+	width: 30%;
+	padding: 20px;
+	vertical-align: top;
+	margin: 0 15px;
+	box-sizing: border-box;
+}
+
+.ulProdutos li:hover{
+	border-color: #b15252;
+}
+
+.ulProdutos li:active{
+	border-color: #52b162;
+}
+
+.ulProdutos li:hover h2{
+	font-size: 35px;
+}
+
+footer{
+	text-align: center;
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.copyright{
+	color: white;
+	font-size: 15px;
+	padding: 20px;
+}
+
+main{
+	width: 1000px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+form{
+	margin: 40px 0;
+	padding: 30px;
+}
+
+form label, form legend{
+	display: block;
+	margin: 0 0 20px;
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.inputPadrao{
+	display: block;
+	padding: 5px 30px;
+	margin: 10px 5px ;
+	width: 30%;
+}
+
+select{
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.btnEnviar{
+	width: 30%;
+	padding: 10px;
+	font-weight: bold;
+	background: #52b162;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.btnEnviar:hover{
+	background: #7bd88a;
+	transform: scale(1.5) rotate(360deg);;
+}
+
+table{
+	margin: 20px;
+}
+
+thead{
+	background: cornsilk;
+}
+
+td, th{
+	border: 1px solid black;
+	padding: 5px
+}
+
+/*css da pag inicial*/
+.divBanner{
+	margin-top: 20px;
+	width: 90%;
+}
+
+.banner{
+	width: 95%;
+	border-radius: 5px;
+	margin: 0 50px 0 50px;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	font-style: italic;
+	margin: 1em 0 1em;
+	clear: left;
+}
+
+.utensilios{
+	width: 110px;
+	float: left;
+	margin: 0 40px 15px 0;
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.mapa{
+	padding: 2em 0;
+}
+
+.mapa p{
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.beneficios{
+	padding: 2em 0;
+}
+
+.divBeneficios{
+	width: 640px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.ulAtendimento{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens{
+	line-height: 1.5;
+}
+
+.itens:first-child{
+	font-weight: bold;
+}
+
+.imagembeneficios{
+	width: 60%;
+	border-radius: 5px;
+}
+
+.videoBeneficios{
+	width: 560px;
+	margin: 2em auto;
+}
