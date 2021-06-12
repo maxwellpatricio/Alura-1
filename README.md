@@ -1,4 +1,4 @@
 # Alura-1
-Repositorio dos teste das aulas da Alura.
+Repositorio contendo o exemplo de um site para uma barbearia, feito em curso da Alura.
 
-Projeto não finalizado, restando codar apenas algumas adaptações para telas mobile.
+Projeto não finalzado, faltando apenas adaptação das telas para dispositivos mobile.
